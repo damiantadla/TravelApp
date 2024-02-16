@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TravelApp.Client">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>User\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.Employee">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAgAAAAAAAAAAABAAAAAQAAAAAAABAA=</HashCode>
+      <FileName>User\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.Person">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACAAAAAAACAAAAAAAAAAAAAAAAgAABAAgAAAAA=</HashCode>
+      <FileName>User\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.BaseDataBase">
+    <Position X="12.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConnectBase\BaseDataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.GetDataBase">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConnectBase\GetDataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.RemoveDataBase">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAA=</HashCode>
+      <FileName>ConnectBase\RemoveDataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.SetDataBase">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="TravelApp.BaseDataBase" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.25" Y="2.805" />
+        <Point X="13.25" Y="3.01" />
+        <Point X="16" Y="3.01" />
+        <Point X="16" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>ConnectBase\SetDataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.Cart">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAACAAABAgAAAwABAAAAEQABAQAAAAAA=</HashCode>
+      <FileName>Utils\Cart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.Travels">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAEAAAACAAAAAgAAAwABAAAAEQAAAAAAAAEA=</HashCode>
+      <FileName>Utils\Travels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TravelApp.Utils">
+    <Position X="11.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAABAIIAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Utils\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
